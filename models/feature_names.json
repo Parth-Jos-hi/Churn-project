@@ -1,0 +1,13 @@
+import pandas as pd, json, os
+
+SAMPLE = "models/sample_input.csv"
+OUT = "models/feature_names.json"
+
+if not os.path.exists(SAMPLE):
+    raise SystemExit("models/sample_input.csv not found. Create it from your notebook (save one raw X_train row).")
+
+df = pd.read_csv(SAMPLE, nrows=1)
+raw_cols = list(df.columns)
+with open(OUT, "w") as f:
+    json.dump(raw_cols, f, indent=2)
+print("Wrote raw feature names to", OUT)

@@ -1,0 +1,52 @@
+{
+  "all_features": [
+    "Gender",
+    "Seniorcitizen",
+    "Partner",
+    "Dependents",
+    "Tenure",
+    "Phoneservice",
+    "Multiplelines",
+    "Internetservice",
+    "Onlinesecurity",
+    "Onlinebackup",
+    "Deviceprotection",
+    "Techsupport",
+    "Streamingtv",
+    "Streamingmovies",
+    "Contract",
+    "Paperlessbilling",
+    "Paymentmethod",
+    "Monthlycharges",
+    "Totalcharges",
+    "Churn_Numeric",
+    "Num_Internet_Services"
+  ],
+  "numeric_features": [
+    "Seniorcitizen",
+    "Tenure",
+    "Monthlycharges",
+    "Totalcharges",
+    "Churn_Numeric",
+    "Num_Internet_Services"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Partner",
+    "Dependents",
+    "Phoneservice",
+    "Multiplelines",
+    "Internetservice",
+    "Onlinesecurity",
+    "Onlinebackup",
+    "Deviceprotection",
+    "Techsupport",
+    "Streamingtv",
+    "Streamingmovies",
+    "Contract",
+    "Paperlessbilling",
+    "Paymentmethod"
+  ],
+  "target": "Churn",
+  "rows_total": 8000
+}

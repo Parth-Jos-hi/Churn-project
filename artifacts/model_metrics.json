@@ -1,0 +1,21 @@
+{
+  "best_model": "LogisticRegression",
+  "validation": {
+    "LogisticRegression": {
+      "roc_auc": 0.7973269080858904,
+      "pr_auc": 0.7138581160120057
+    },
+    "RandomForest": {
+      "roc_auc": 0.7846573595067677,
+      "pr_auc": 0.6677318777213277
+    },
+    "XGBoost": {
+      "roc_auc": 0.7628658493373963,
+      "pr_auc": 0.6674450610289469
+    }
+  },
+  "test": {
+    "roc_auc": 0.8070758620029941,
+    "pr_auc": 0.7210397637228454
+  }
+}

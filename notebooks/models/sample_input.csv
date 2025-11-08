@@ -1,0 +1,2 @@
+Gender,Seniorcitizen,Partner,Dependents,Tenure,Phoneservice,Multiplelines,Internetservice,Onlinesecurity,Onlinebackup,Deviceprotection,Techsupport,Streamingtv,Streamingmovies,Contract,Paperlessbilling,Paymentmethod,Monthlycharges,Totalcharges,Num_Internet_Services
+Female,0,Yes,Yes,4,Yes,No,Dsl,No,Yes,Yes,Yes,Yes,Yes,Month-To-Month,Yes,Electronic Check,85.83,8.408935148644899,5

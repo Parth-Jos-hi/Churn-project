@@ -1,0 +1,28 @@
+{
+  "comparison_table": [
+    {
+      "Model": "Logistic Regression",
+      "F1": 0.743,
+      "Precision": 0.674,
+      "Recall": 0.828,
+      "ROC_AUC": 0.807,
+      "PR_AUC": 0.721
+    },
+    {
+      "Model": "Random Forest",
+      "F1": 0.727,
+      "Precision": 0.674,
+      "Recall": 0.79,
+      "ROC_AUC": 0.79,
+      "PR_AUC": 0.69
+    },
+    {
+      "Model": "XGBoost",
+      "F1": 0.684,
+      "Precision": 0.666,
+      "Recall": 0.703,
+      "ROC_AUC": 0.78,
+      "PR_AUC": 0.68
+    }
+  ]
+}

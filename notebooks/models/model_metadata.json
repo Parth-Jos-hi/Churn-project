@@ -1,0 +1,9 @@
+{
+  "pipeline_file": "final_churn_xgb_pipeline.pkl",
+  "model_type": "xgb",
+  "n_train": 5200,
+  "n_test": 1600,
+  "f1": 0.7423750811161584,
+  "roc_auc": 0.8060044863853987,
+  "pr_auc": 0.7270588623914325
+}
