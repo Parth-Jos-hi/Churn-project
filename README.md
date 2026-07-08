@@ -1,11 +1,6 @@
 # Churn-project
 # 📉 Customer Churn Prediction using Machine Learning
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-Model-red?style=for-the-badge)
-![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 An end-to-end Machine Learning project that predicts whether a customer is likely to churn using multiple classification algorithms and a production-ready prediction pipeline.
 
